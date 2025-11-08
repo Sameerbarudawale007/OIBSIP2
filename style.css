@@ -51,7 +51,8 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
 }
 
@@ -72,10 +73,17 @@ nav ul li a:hover::after {
 
 .header-text {
   margin-top: 20%;
-  font-size: 30px;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
 }
 
+#name {
+  font-size: 25px;
+  color: #ababab;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
 
 .profile-pic {
   position: absolute;
@@ -145,11 +153,13 @@ nav ul li a:hover::after {
 .sub-title {
   font-size: 40px;
   font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
 }
 
 p {
-  line-height: 25px;
+  line-height: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
   font-weight: 400;
   margin-top: 20px;
@@ -165,6 +175,7 @@ p {
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
   position: relative;
 }
 
@@ -406,30 +417,31 @@ form .btn2 {
   color: #ff004f;
 }
 
-nav .fa-solid,.fas{
+nav .fa-solid,
+.fas {
   display: none;
 }
 
-
-@media only screen and (max-width:600px){
-  .header-text .profile-pic{
+@media only screen and (max-width: 600px) {
+  .header-text .profile-pic {
     display: none;
   }
 
-  .header-text{
+  .header-text {
     font-size: 16px;
   }
 
-  .header-text h1{
+  .header-text h1 {
     font-size: 40px;
   }
 
-  nav .fa-solid,.fas{
+  nav .fa-solid,
+  .fas {
     display: block;
     font-size: 25px;
   }
 
-  nav ul{
+  nav ul {
     background: #ff004f;
     position: fixed;
     top: 0;
@@ -441,44 +453,45 @@ nav .fa-solid,.fas{
     transition: right 0.5s;
   }
 
-  nav ul li{
+  nav ul li {
     display: block;
     margin: 25px;
   }
 
-  nav ul .fa-solid,.fas{
+  nav ul .fa-solid,
+  .fas {
     position: absolute;
     top: 25px;
     left: 25px;
     cursor: pointer;
   }
 
-  .sub-title{
+  .sub-title {
     font-size: 40px;
   }
 
-  .about-col-1{
+  .about-col-1 {
     flex-basis: 100%;
     margin-top: -400px;
     margin-bottom: 50px;
   }
 
-  .about-col-2{
+  .about-col-2 {
     flex-basis: 100%;
   }
 
-  .about-col-2 p{
+  .about-col-2 p {
     font-size: 20px;
     line-height: 30px;
   }
 
-  .contact-left,.contact-right{
+  .contact-left,
+  .contact-right {
     flex-basis: 100%;
   }
-  
 }
 
-#msg{
+#msg {
   color: #61b752;
   margin-top: -40px;
   display: block;
